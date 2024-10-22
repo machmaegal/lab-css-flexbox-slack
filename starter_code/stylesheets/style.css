@@ -8,3 +8,84 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+* {
+    margin: 0;
+    padding: 0;     
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #540B51;
+    color: #F3EAE2;
+}
+
+h1, h1 + p {
+    color: #F3EAE2;
+    text-align: center;
+    margin: 25px;
+}
+
+nav {
+    display: flex;
+    padding: 15px 20px
+}
+
+p > span {
+    color: #ECB12F;
+}
+
+button {
+    border-radius: 10px;
+    
+    border: none;
+}
+
+/*classes*/
+.navbar {
+    display: none;
+}
+
+.trust {
+    background-color:#F3EAE2;
+}
+
+.icon-menu {
+    display: flex;
+    justify-content: space-around;
+}
+.icon-menu > button {
+    background-color: #540B51;
+}
+
+.icon-menu :nth-child(2) {
+    margin-left: 10px;
+}
+
+/*IDs*/
+#slack-logo {
+   width: 30%; 
+}
+
+#buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 10%;
+}
+
+#buttons > button {
+    background-color: #F3EAE2;
+    border: none;
+    height: 50%;
+}
+
+#google-button {
+    display: flex;
+    justify-content: space-between;
+   
+}
+#google-button > img{
+    height: 10%;
+    width: 10%;
+}
+
